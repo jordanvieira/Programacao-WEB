@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Jordan Vieira</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="container mb-5 p-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 cartao">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-end">
+                        <label class="switch">
+                            <input type="checkbox" id='dark'>
+                            <span class="slider round">
+                                <i class="fa fa-moon-o" aria-hidden="true"></i>
+                                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <center><img id="perfil" src="./IMG_20210513_230350.jpg"><br>
+                    <span id="myname">@Jordan_veira</span>
+                </center><br><br>
+
+                <div style="margin:0 auto; width: 200px;">
+
+                    <div class="flip">
+                        <a href="https://www.instagram.com/jordan_veira/" target="_blank">
+                            <div class="front">
+                                <i class="fa fa-instagram"></i>
+                                INSTAGRAM
+                            </div>
+                            <div class="back">
+                                <i class="fa fa-facebook"></i>
+                                FOLLOW!
+                            </div>
+                        </a>
+                    </div>
+                    <br><br>
+                    <div class="flip">
+                        <a href="https://www.twitch.tv/jordanstarkn" target="_blank">
+                            <div class="front">
+                                <i class="fa fa-twitch"></i>
+                                TWITCH⠀⠀⠀
+                            </div>
+                            <div class="back">
+                                <i class="fa fa-twitch"></i>
+                                FOLLOW!
+                            </div>
+                        </a>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <!--<div class="flip">
+            <a href="mailto:" target="_blank">
+                <div class="front">JOBS</div>
+                <div class="back">PARCERIAS</div>
+            </a>
+        </div>
+        <br><br>-->
+
+                    <div class="flip">
+                        <a href="https://www.facebook.com/jordan.marvao" target="_blank">
+                            <div class="front">
+                                <i class="fa fa-facebook"></i>
+                                FACEBOOK⠀
+                            </div>
+                            <div class="back">
+                                <i class="fa fa-facebook"></i>
+                                FOLLOW!
+                            </div>
+                        </a>
+                    </div>
+                    <br><br>
+
+                    <div class="flip">
+                        <a href="https://www.linkedin.com/in/jordan-vieira/" target="_blank">
+                            <div class="front">
+                                <i class="fa fa-linkedin"></i>
+                                LINKEDIN⠀⠀
+                            </div>
+                            <div class="back">
+                                <i class="fa fa-linkedin"></i>
+                                CONECTE-SE!
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <br><br>
+
+                    <div class="flip">
+                        <a href="mailto:marvaojordan98@gmail.com?subject=Olá" target="_blank">
+                            <div class="front">
+                                <i class="fa fa-envelope"></i>
+                                E-MAIL⠀⠀⠀⠀
+                            </div>
+                            <div class="back">
+                                <i class="fa fa-envelope"></i>
+                                MANDE AGORA!
+                            </div>
+
+                        </a>
+
+                    </div>
+
+
+                    <!--<br>
+            <div class="flip">
+                <a href="" target="_blank">
+                    <div class="front">
+                        <i class="fa fa-facebook"></i>
+                        YOUTUBE
+                    </div>
+                    <div class="back">
+                        <i class="fa fa-facebook"></i>
+                        SE INSCREVE!
+                    </div>
+
+                </a>
+
+            </div>-->
+
+                    <!--<div class="flip">
+                <a href="" target="_blank">
+                    <div class="front">SPOTIFY</div>
+                    <div class="back">SPOTIFY</div>
+                </a>
+            </div>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-4">
+            <div class="col-md-12 d-flex justify-content-center">
+                <i class="title-text">Playlist</i>
+            </div>
+        </div>
+
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                <a class="nav-item nav-link active font-weight-bold" id="lo-fi-tab" data-toggle="tab" href="#lo-fi"
+                    role="tab" aria-controls="lo-fi" aria-selected="true">Top-Local</a>
+
+                <a class="nav-item nav-link font-weight-bold" id="melhores-tab" data-toggle="tab" href="#melhores"
+                    role="tab" aria-controls="melhores" aria-selected="false">Top-Global</a>
+
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+
+            <div class="tab-pane fade show active" id="lo-fi" role="tabpanel" aria-labelledby="lo-fi-tab">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center p-0">
+                        <iframe id="spotify-lo" title="spotify-local"
+                            src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMXbN3EUUhlg" width="90%"
+                            height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="melhores" role="tabpanel" aria-labelledby="melhores-tab">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center p-0">
+                        <iframe id="spotify-melhores" title="spotify-global"
+                            src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF" width="90%"
+                            height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h5 class="flip" id="nome"">
+                JordanCode/>
+            </h5>
+
+        </footer>
+    </div>
+
+
+    <script>
+        let html = document.querySelector('html')
+        let checkbox = document.querySelector('#dark')
+
+        checkbox.addEventListener('change', () => {
+            html.classList.toggle('dark-mode')
+        })
+    </script>
+
+    <!-- Scripts -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous">
+                </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                    crossorigin="anonymous"></script>
+</body>
+
+</html>
